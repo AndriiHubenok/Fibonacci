@@ -1,7 +1,7 @@
 package Logic;
 
 public class FibonacciIteration {
-    // Memory: 1 + 1 + 1 + 1 - 2 ~ 1 Time: 1 + 1 + 1 + 1 + 1 + n - 2 + n - 1 + n + n + n + 1 ~ n
+    // Memory: 1 Time: O(n)
     public static long fibonacci(int n) {
         if (n <= 1) {
             return n;

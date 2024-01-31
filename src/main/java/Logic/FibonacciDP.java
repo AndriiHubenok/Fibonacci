@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class FibonacciDP {
     private static Map<Integer, Long> memo = new HashMap<>();
-    // Memory: n Time: 1 + 1 + 1 + 1 + n - 1 + n - 2 + 1 + 1 ~ n
+    // Memory: n Time: O(n)
     public static long fibonacci(int n) {
         if (n <= 1) {
             return n;
